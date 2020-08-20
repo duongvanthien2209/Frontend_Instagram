@@ -1,0 +1,36 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.person-friends__top {
+    display: flex;
+    align-items: center;
+}
+
+.person-friends__item {
+    display: flex;
+    align-items: center;
+}
+
+.person-friends__item__content {
+    flex-grow: 1;
+}
+
+.article__header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.article__footer {
+    display: flex;
+    align-items: center;
+}
+
+.article__footer input {
+    flex-grow: 1;
+    margin-right: 1rem;
+}
+

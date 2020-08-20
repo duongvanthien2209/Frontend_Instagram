@@ -1,0 +1,24 @@
+.article-wrapper {
+    position: relative;
+}
+
+.article-wrapper__content {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+    width: 100%;
+
+    opacity: 0;
+}
+
+.article-wrapper__content:hover {
+    opacity: 1;
+}
+
